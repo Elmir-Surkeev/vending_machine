@@ -1,0 +1,12 @@
+git status
+git add .
+git commit -m ""
+git push
+git reset
+
+git reset --soft HEAD~1
+
+git push origin master --force
+git checkout -b dev-branch
+git reset --hard HEAD~2
+git reset --hard HEAD~1
